@@ -12,7 +12,7 @@ namespace TallerApis_Grupo01.Repositories
             _httpClient = new HttpClient();
         }
 
-   
+        
         public async Task<IEnumerable<Country>> GetCountryList()
         {
             string url = "https://restcountries.com/v3.1/all";
